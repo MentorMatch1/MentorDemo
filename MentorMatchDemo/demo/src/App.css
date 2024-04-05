@@ -1,0 +1,313 @@
+/* Navigation */
+.nav-title {
+  font-size: 2.4rem;
+  color: #1f7ea1;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 75%;
+  padding: 2.4rem 7.2rem;
+  align-items: center;
+  margin-bottom: 6.4rem;
+  border-bottom: 0.1rem solid #bbb;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: 0.3s ease;
+}
+
+.nav-link-container {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+/* Welcome */
+
+.welcome-area {
+  justify-content: center;
+  align-self: center;
+}
+.welcome {
+  font-size: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.welcome-description {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+}
+
+.logo {
+  align-self: center;
+  justify-self: center;
+}
+
+.mentor-photo {
+  width: 85%;
+  align-items: center;
+  justify-self: center;
+}
+
+.institution-h1 {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.institution-code {
+  font-family: "Roboto", sans-serif;
+  padding: 1.2rem 2.8rem;
+  border-radius: 1.5rem;
+  border: 1px solid #aaa;
+}
+
+/* Data Test */
+
+.data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  display: grid;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 3.4rem;
+  font-size: 2.4rem;
+  width: 50rem;
+  margin-bottom: 3.2rem;
+}
+.inputs {
+  padding: 1.2rem 3.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.institution-display {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.creation-link {
+  font-size: 2rem;
+}
+
+/* Profile Creation */
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ddd;
+  padding: 6.4rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  padding: 6.4rem;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+.profile-left h1 {
+  font-size: 3.2rem;
+}
+
+.profile-left p {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.profile-right {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.input-box {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+  margin-bottom: 0.8rem;
+}
+
+.profile-description {
+  padding: 1.2rem 2.4rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  height: 12.8rem;
+  margin-bottom: 4.4rem;
+}
+
+.profile-error {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.profile-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1f7ea1;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Login Page */
+
+.login-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 12.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 35%;
+  height: 20rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: #666;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+  margin-bottom: 0.8rem;
+}
+
+.login-container button {
+  margin: 2rem 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #1f7ea1;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-error {
+  font-size: 1.6rem;
+}
+
+/* DashBoard */
+
+/* General reset and base styles */
+
+.dashboard-section {
+  background: linear-gradient(to bottom, #ebf4f5, #49555e);
+  height: 100vh;
+}
+.dashboard {
+  position: relative;
+  top: 5rem;
+  left: 10rem;
+  width: 90%;
+  display: flex;
+  min-height: 90vh; /* Adjusted to min-height for flexibility */
+  border-radius: 15px; /* Rounded corners for the dashboard container */
+  overflow: hidden; /* Ensures child elements do not overflow the rounded corners */
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.dashboard-match {
+  font-size: 1.6rem;
+}
+
+.home-link {
+  display: block;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #1f7ea1;
+  text-decoration: none;
+}
+
+.sidebar {
+  background-color: #fff; /* Gradient background */
+  padding: 2rem;
+  width: 25rem;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Rounded corners for links */
+  transition: background 0.3s, transform 0.3s;
+}
+
+.sidebar nav a:hover {
+  background-color: #3da2d8;
+  transform: translateX(
+    5px
+  ); /* Slight movement to the right on hover for interactivity */
+}
+
+.content {
+  padding: 30px;
+  flex-grow: 1;
+  background-color: #ddd; /* Light background for the content area */
+  border-radius: 0 10px 10px 0; /* Rounded corners on the right side */
+}
+
+.content h1 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #1f7ea1; /* Color accent for headings */
+}
+
+.content p {
+  font-size: 1.6rem; /* Slightly larger font size for readability */
+}
+
+.dashboard-links {
+  font-size: 1.6rem;
+  color: #aaa;
+}

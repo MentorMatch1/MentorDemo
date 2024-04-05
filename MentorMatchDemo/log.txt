@@ -1,0 +1,25 @@
+March 6/24 
+Fixed the creation of profile by adding a 400 error message to be interpretted by the system and error message be displayed.
+In app.py folder created is_valid_email 
+added to the api_backend.py by making it so that the tokens are displayed to the model in the format
+Email, Description, Name all have capital values in React
+User XX:
+Name: XXXX
+Description: Description Here
+
+Must Do:
+Fix login page similar to profileCreation.js and make it link to the dashboard with the users Data being displayed after login 
+
+March 8/24
+Implemented Logging In from the login page, response from flask back which is then put through localstorage , then users are sent to /dashboard page
+their personal data is accessed from localstorages and displayed onto the dashboard (this isnt really secure but thats not really the point of the demo) 
+
+Must do: Dashboard simple styling, Same with styling the login page to not look extremely ugly
+
+
+March 12/24
+Not much, just added some simple styling to the Login Page
+
+March 13/24
+Added some styling to profile Creation Page
+Made sure that all the features work well. 
